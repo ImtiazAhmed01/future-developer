@@ -9,6 +9,9 @@
     justify-content: space-between;
     margin: 0px 75px;
 }
+.banner-text{
+    font-weight: 200;
+}
 /* share style */
 .btn-primary{
     padding: 17px;
@@ -16,4 +19,14 @@
 }
 .center-text{
     text-align: center;
+}
+.banner{
+    background-image: url(../assets/Hero-bg.png);
+    padding: 50px;
+}
+.banner-btn{
+    background-color: black;
+    padding: 21px;
+    color: white;
+    border-radius: 8px;
 }
