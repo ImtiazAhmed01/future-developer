@@ -60,3 +60,27 @@
 
 
 }
+.target{
+    margin-top: 100px;
+}
+.courses{
+    display: flex;
+    gap: 15px;
+    margin: 55px 50px 30px;
+}
+.html{
+    width: 25%;
+    background-color:#f3dad4 ;
+}
+.css{
+    width: 25%;
+    background-color: #cddaf7;
+}
+.js{
+    width: 25%;
+    background-color: #f1eabf;
+}
+.info{
+    margin: 25px;
+    padding: 20px;
+}
