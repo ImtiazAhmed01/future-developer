@@ -84,3 +84,44 @@
     margin: 25px;
     padding: 20px;
 }
+.ba{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.bg{
+    background-image: url(../assets/handshake.jpg);
+
+    padding-top: 150px;
+    padding-bottom: 250px;
+}
+.txt{
+    color: white;
+    gap: 20px;
+}
+.btn-submit{
+    border-radius: 8px;
+    font-weight: 300;
+    padding: 10px;
+}
+section input[type="text"]{
+    height: 18px;
+    border-radius: 5px;
+    background-color: white;
+    width: 20%;
+    padding: 10px 10px;
+    margin-bottom: 24px;
+    border: none;
+}
+/* FOOTER style */
+.footer{
+    background-color: rgb(247, 245, 243);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    padding-right: 150px;
+    margin-top: 15px;
+}
