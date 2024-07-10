@@ -6,7 +6,8 @@
 }
 
 /* share style */
-.btn-primary, .why_description{
+/* /* .btn-primary, .why_description */
+.btn-primary, .why_title{ 
     padding: 17px;
     border-radius: 8px;
 }
@@ -20,7 +21,7 @@
     justify-content: space-between;
     margin: 0px 75px;
 }
-.banner-text, .main-text, .why_title{
+.banner-text, .main-text, .why_description{
     font-weight: 200;
 }
 
