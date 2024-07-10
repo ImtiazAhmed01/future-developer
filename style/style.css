@@ -4,22 +4,26 @@
   font-weight: bolder;
   font-style: normal;
 }
-.nav-head{
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 75px;
-}
-.banner-text{
-    font-weight: 200;
-}
+
 /* share style */
-.btn-primary{
+.btn-primary, .why_description{
     padding: 17px;
     border-radius: 8px;
 }
 .center-text{
     text-align: center;
 }
+
+/* nav-bar sle */
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 75px;
+}
+.banner-text, .main-text, .why_title{
+    font-weight: 200;
+}
+
 .banner{
     background-image: url(../assets/Hero-bg.png);
     padding: 50px;
@@ -29,4 +33,29 @@
     padding: 21px;
     color: white;
     border-radius: 8px;
+}
+/* Main style */
+.common-btn{
+    padding: 17px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: black;
+    border-color: black;
+}
+.why-section{
+    margin-top: 70px;
+}
+.why-container{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    margin: 48px 300px 31px;
+    text-align: center;
+    /* box-shadow: 0px 6px 50px 0 red; */
+}
+.details{
+    text-align: left;
+    padding: 25px;
+
+
 }
